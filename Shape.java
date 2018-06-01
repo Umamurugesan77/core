@@ -16,9 +16,14 @@ public class Shape {
 public double findAreaofRectangle(){
 	return length * breadth;
 }
+public double findAreaofSqure() {
+	return side * side;
+}
 public static void main(String args[]) {
 	Shape squre = new Shape(4);
 	Shape rectangle = new Shape(6,5.2);
 	System.out.println(rectangle. findAreaofRectangle());
+	Shape squre1 = new Shape(3);
+	System.out.println(squre.findAreaofSqure());
 }
 }
